@@ -1,0 +1,66 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with`a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Assignment 1}
+\author{Your name}
+
+\begin{document}
+\maketitle
+
+
+\section{Correlation [3 points]}
+Consider the dataset in this workbook:
+\href{https://docs.google.com/spreadsheets/d/1wMSp2pQDvF64spFXlWUCd9H6N8GVtmsWD3-NTqDV74s/edit?usp=sharing}{link}, in tab \emph{correlation}.
+
+Make a copy of the workbook, and change the sharing settings for everyone to view.\\
+
+Create a scatter plot of data. What do you think the correlation coefficient will be?
+
+Answer: I think the correlation will be in the range between $0.$ and $0.$.\\
+
+Now compute Pearson correlation coefficient using one of the approaches discussed during the Recitation. Explain which approach did you use and show intermediate results in the workbook.
+
+Answer: The correlation coefficient I computed is $r=$. 
+
+\newpage
+\section{Frequent items [4 points]}
+Suppose there are 100 items, numbered 1 to 100, and also 100
+transactions, also numbered 1 to 100. Item $i$ is in transaction $b$ if and only if $i$ divides $b$
+with no remainder: $\mod{b,i}=0$. Thus, item 1 is in all the transactions, item 2 is in all fifty of the
+even-numbered transactions, and so on. Transaction 12 consists of items {1, 2, 3, 4, 6, 12},
+since these are all the integers that are divisors of 12.\\ 
+
+Find the answer to the following question:
+If the support threshold is 5 out of 100, which items are frequent?
+
+Give some explanations of how did you arrive to this answer.\\
+
+Arguments:
+
+Answer: 
+
+\newpage
+\section{Association Rules [3 points]}
+Compute the confidence of the following association rules using the data in tab \emph{association}.
+\begin{enumerate}
+    \item \textbf{if Tea then Coffee}\\ $conf=\frac{num1}{num2}=num3$
+    \item \textbf{if Coffee then Tea}\\ $conf=\frac{num1}{num2}=num3$
+    \item \textbf{if Coffee then Not Tea}\\ $conf=\frac{num1}{num2}=num3$
+\end{enumerate}
+
+\end{document}
+
+
+
